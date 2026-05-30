@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Benefitone / Rewardz — Govind Sharma</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="../index.html" class="nav-logo">&lt;GS /&gt;</a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../about.html">About</a>
+      <a href="../experience.html">Experience</a>
+      <a href="../projects.html" class="active">Projects</a>
+      <a href="../contact.html" class="nav-cta">Contact</a>
+    </div>
+    <div class="hamburger"><span></span><span></span><span></span></div>
+  </nav>
+
+  <div class="page">
+    <div class="container">
+      <div class="project-detail-hero">
+
+        <a href="../projects.html" class="back-link">← Back to Projects</a>
+
+        <div class="project-detail-header">
+          <div class="project-detail-icon" style="background:linear-gradient(135deg,rgba(108,99,255,0.2),rgba(0,212,255,0.1));">🏆</div>
+          <div>
+            <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:0.75rem;">
+              <span class="tag">SaaS Platform</span>
+              <span class="tag tag-green">Production</span>
+              <span class="tag">4.5 Years</span>
+            </div>
+            <h1 class="project-detail-title">Benefitone / Rewardz</h1>
+            <p class="project-detail-sub">Employee Engagement & Rewards Platform — Tech Lead</p>
+            <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-top:0.5rem;">
+              <span class="tag">Django</span><span class="tag">FastAPI</span>
+              <span class="tag tag-cyan">Angular</span><span class="tag tag-orange">Celery</span>
+              <span class="tag tag-green">AWS</span><span class="tag tag-green">Docker</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-detail-body">
+          <div class="project-detail-content fade-up">
+
+            <h2>About the Product</h2>
+            <p>
+              Benefitone Engagement Technologies (formerly Rewardz Pvt. Ltd.) is a leading SaaS-based
+              employee engagement and rewards platform that empowers organizations to enhance recognition,
+              wellness, and performance through digital solutions. The platform enables enterprises to drive
+              employee motivation, peer recognition, incentive management, and holistic well-being programs
+              across multiple geographies.
+            </p>
+            <p>
+              The core products — <strong>Skor</strong> and <strong>CerraPoints</strong> — serve large enterprise
+              clients with thousands of employees, requiring highly scalable and reliable backend infrastructure.
+            </p>
+
+            <h2>My Role</h2>
+            <p>
+              Joined as Senior Software Developer in May 2021 and grew into a Tech Lead role over the tenure
+              (May 2021 – Nov 2025). Led backend architecture decisions, mentored junior developers, coordinated
+              sprint planning, and drove end-to-end delivery of major platform features.
+            </p>
+
+            <h2>Key Contributions</h2>
+            <ul>
+              <li>Led backend architecture and system design for scalable modules in the Skor / CerraPoints platform</li>
+              <li>Designed and implemented microservices using FastAPI with SQLAlchemy ORM</li>
+              <li>Built RESTful APIs and managed authentication flows using Python and Django</li>
+              <li>Maintained CI/CD pipelines using Jenkins, Docker, and AWS EC2 for smooth zero-downtime deployments</li>
+              <li>Designed and implemented asynchronous task queues using Celery and Redis to process high-volume background jobs</li>
+              <li>Built scheduled jobs with Celery Beat for nightly ETL and cleanup operations</li>
+              <li>Integrated FastAPI + Celery stack to improve system throughput and <strong>reduce API latency by 40%</strong></li>
+              <li>Developed and maintained Angular-based frontends for dashboards and user workflows</li>
+              <li>Integrated third-party services: AWS SES (email), SNS (push notifications)</li>
+              <li>Optimized PostgreSQL queries for high-traffic endpoints</li>
+              <li>Mentored junior developers and conducted regular code reviews</li>
+              <li>Led sprint planning and coordinated cross-functional delivery</li>
+            </ul>
+
+            <h2>Technical Highlights</h2>
+            <p>
+              One of the key architectural decisions was the migration from synchronous Django views to
+              an async-capable FastAPI microservices layer for performance-critical paths. Coupled with
+              a Celery + Redis task queue for heavy operations (report generation, bulk email, data imports),
+              this dramatically improved the perceived responsiveness of the platform.
+            </p>
+            <p>
+              The Angular frontend was built with reusable component architecture, ensuring consistency
+              across dashboards used by HR teams, managers, and employees across different enterprise clients.
+            </p>
+
+            <h2>Impact</h2>
+            <ul>
+              <li>Reduced API latency by 40% via FastAPI + Celery architecture</li>
+              <li>Enabled multi-geography deployments serving thousands of enterprise users</li>
+              <li>Established CI/CD pipelines reducing deployment friction significantly</li>
+              <li>Grew from individual contributor to Tech Lead over 4.5 years</li>
+            </ul>
+
+          </div>
+
+          <div class="project-sidebar fade-up">
+            <div class="card">
+              <div class="sidebar-label">Company</div>
+              <div class="sidebar-value">Benefitone Engagement Technologies Pvt. Ltd. (Rewardz)</div>
+            </div>
+            <div class="card">
+              <div class="sidebar-label">Role</div>
+              <div class="sidebar-value">Senior Software Developer → Tech Lead</div>
+            </div>
+            <div class="card">
+              <div class="sidebar-label">Duration</div>
+              <div class="sidebar-value">May 2021 – Nov 2025 (4.5 years)</div>
+            </div>
+            <div class="card">
+              <div class="sidebar-label">Type</div>
+              <div class="sidebar-value">SaaS — Employee Engagement</div>
+            </div>
+            <div class="card">
+              <div class="sidebar-label">Tech Stack</div>
+              <div class="skill-tags" style="display:flex; flex-wrap:wrap; gap:0.4rem; margin-top:0.5rem;">
+                <span class="tag">Python</span><span class="tag">Django</span>
+                <span class="tag">FastAPI</span><span class="tag">SQLAlchemy</span>
+                <span class="tag tag-cyan">Angular</span>
+                <span class="tag tag-orange">PostgreSQL</span><span class="tag tag-orange">MongoDB</span>
+                <span class="tag tag-orange">Redis</span><span class="tag tag-orange">Celery</span>
+                <span class="tag tag-green">AWS</span><span class="tag tag-green">Docker</span>
+                <span class="tag tag-green">Jenkins</span>
+              </div>
+            </div>
+            <div style="margin-top:1rem;">
+              <a href="../contact.html" class="btn btn-primary" style="width:100%; justify-content:center;">Hire Me for Similar Work</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-logo">&lt;GS /&gt;</span>
+      <span class="footer-text">© 2026 Govind Sharma.</span>
+      <div class="footer-links">
+        <a href="../projects.html">All Projects</a>
+        <a href="../contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

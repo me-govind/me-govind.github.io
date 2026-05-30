@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GST Invoice App — Govind Sharma</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="../index.html" class="nav-logo">&lt;GS /&gt;</a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../about.html">About</a>
+      <a href="../experience.html">Experience</a>
+      <a href="../projects.html" class="active">Projects</a>
+      <a href="../contact.html" class="nav-cta">Contact</a>
+    </div>
+    <div class="hamburger"><span></span><span></span><span></span></div>
+  </nav>
+
+  <div class="page">
+    <div class="container">
+      <div class="project-detail-hero">
+
+        <a href="../projects.html" class="back-link">← Back to Projects</a>
+
+        <div class="project-detail-header">
+          <div class="project-detail-icon" style="background:linear-gradient(135deg,rgba(0,230,118,0.15),rgba(108,99,255,0.1));">🧾</div>
+          <div>
+            <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:0.75rem;">
+              <span class="tag tag-green">Desktop App</span>
+              <span class="tag">ERP</span>
+              <span class="tag">Construction Industry</span>
+            </div>
+            <h1 class="project-detail-title">GST Invoice</h1>
+            <p class="project-detail-sub">ERP Desktop Application for Construction Invoicing with GST Compliance</p>
+            <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-top:0.5rem;">
+              <span class="tag">C#</span><span class="tag">.NET</span>
+              <span class="tag tag-cyan">React</span><span class="tag tag-cyan">Next.js</span>
+              <span class="tag tag-orange">MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-detail-body">
+          <div class="project-detail-content fade-up">
+
+            <h2>About the Project</h2>
+            <p>
+              GST Invoice is a desktop ERP application designed specifically for the construction industry
+              in India. The application handles end-to-end GST-compliant invoicing, inventory management,
+              billing workflows, and financial reporting tailored to construction project accounting.
+            </p>
+            <p>
+              India's GST (Goods and Services Tax) system has specific rules for the construction industry,
+              including Input Tax Credit (ITC) on materials, reverse charge mechanisms for sub-contractor
+              payments, and project-based billing. This application was built to handle all these complexities.
+            </p>
+
+            <h2>Key Features</h2>
+            <ul>
+              <li>GST-compliant invoice generation with CGST, SGST, and IGST breakdown</li>
+              <li>Construction material inventory management with stock tracking</li>
+              <li>Project-based billing with milestone tracking and progress invoices</li>
+              <li>Sub-contractor payment management with reverse charge mechanism</li>
+              <li>Input Tax Credit (ITC) calculation and reconciliation</li>
+              <li>Financial reporting — P&amp;L, balance sheets, cash flow for construction projects</li>
+              <li>PDF invoice export with customizable company letterhead</li>
+              <li>Multi-project management dashboard</li>
+              <li>Client management with payment history and outstanding tracking</li>
+              <li>GST return filing data export (GSTR-1, GSTR-3B compatible formats)</li>
+            </ul>
+
+            <h2>Technical Architecture</h2>
+            <p>
+              The application was built as a desktop app using C# and .NET for the backend business
+              logic and data layer, with a React/Next.js frontend rendered within an Electron-style
+              desktop shell. MySQL served as the local database.
+            </p>
+            <p>
+              This architecture allowed for a modern, web-like UI experience (React) while maintaining
+              the reliability and offline capability of a desktop application. The C# layer handled
+              all business logic, GST calculations, and database operations via a local API.
+            </p>
+
+            <h2>Challenges</h2>
+            <ul>
+              <li>Implementing accurate GST calculation logic across all construction-specific scenarios</li>
+              <li>Designing the MySQL schema to handle complex project-based accounting relationships</li>
+              <li>Ensuring the React UI remained responsive with large datasets (hundreds of invoices)</li>
+              <li>Building reliable PDF generation for legally compliant GST invoices</li>
+            </ul>
+
+          </div>
+
+          <div class="project-sidebar fade-up">
+            <div class="card">
+              <div class="sidebar-label">Type</div>
+              <div class="sidebar-value">Desktop ERP Application</div>
+            </div>
+            <div class="card">
+              <div class="sidebar-label">Industry</div>
+              <div class="sidebar-value">Construction / Finance</div>
+            </div>
+            <div class="card">
+              <div class="sidebar-label">Compliance</div>
+              <div class="sidebar-value">India GST — CGST, SGST, IGST</div>
+            </div>
+            <div class="card">
+              <div class="sidebar-label">Tech Stack</div>
+              <div class="skill-tags" style="display:flex; flex-wrap:wrap; gap:0.4rem; margin-top:0.5rem;">
+                <span class="tag">C#</span>
+                <span class="tag">.NET</span>
+                <span class="tag tag-cyan">React</span>
+                <span class="tag tag-cyan">Next.js</span>
+                <span class="tag tag-orange">MySQL</span>
+                <span class="tag">Desktop</span>
+              </div>
+            </div>
+            <div style="margin-top:1rem;">
+              <a href="../contact.html" class="btn btn-primary" style="width:100%; justify-content:center;">Work With Me</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-logo">&lt;GS /&gt;</span>
+      <span class="footer-text">© 2026 Govind Sharma.</span>
+      <div class="footer-links">
+        <a href="../projects.html">All Projects</a>
+        <a href="../contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

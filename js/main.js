@@ -91,7 +91,7 @@ function initTypingEffect(selector, words, speed = 80, pause = 2000) {
    ============================================ */
 function initProjectFilter() {
   const filterBtns = document.querySelectorAll('.filter-btn');
-  const projectCards = document.querySelectorAll('.project-card');
+  const projectCards = document.querySelectorAll('.project-card, .other-project-card');
 
   if (!filterBtns.length) return;
 

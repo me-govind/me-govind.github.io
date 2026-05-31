@@ -40,22 +40,25 @@
             Available for opportunities
           </div>
 
+          <p class="hero-greeting">Hi, my name is</p>
+
           <h1 class="hero-name">
-            Hi, I'm <span class="gradient-text">Govind Sharma</span>
+            Govind Sharma.
           </h1>
 
-          <p class="hero-title">
-            <span id="typing-title" class="typing-cursor">Senior Software Developer</span>
-          </p>
+          <h2 class="hero-subtitle-line">
+            I build <span class="gradient-text">scalable web applications.</span>
+          </h2>
 
           <p class="hero-desc">
-            9+ years crafting robust, scalable web applications. Specializing in Python backend
-            engineering, cloud infrastructure, and full-stack delivery — from concept to production.
+            Senior Software Developer &amp; Tech Lead with 9+ years of experience in Python backend
+            engineering, cloud infrastructure, and full-stack delivery — turning complex requirements
+            into production-ready systems.
           </p>
 
           <div class="hero-actions">
             <a href="projects.html" class="btn btn-primary">
-              View Projects &rarr;
+              View My Work &rarr;
             </a>
             <a href="contact.html" class="btn btn-outline">
               Get in Touch
@@ -82,15 +85,32 @@
           </div>
         </div>
 
-        <!-- Right Visual -->
+        <!-- Right Visual: Terminal Card -->
         <div class="hero-visual">
-          <div class="profile-ring">
-            <div class="profile-inner">
-              <span class="profile-initials">GS</span>
+          <div class="terminal-card">
+            <div class="terminal-header">
+              <span class="terminal-dot td-red"></span>
+              <span class="terminal-dot td-yellow"></span>
+              <span class="terminal-dot td-green"></span>
+              <span class="terminal-title">govind.py</span>
             </div>
-            <div class="floating-badge">🐍 Python Expert</div>
-            <div class="floating-badge">☁️ AWS / Azure</div>
-            <div class="floating-badge">⚡ FastAPI</div>
+            <div class="terminal-body">
+              <code class="terminal-code"><span class="tc-comment"># Senior Software Developer</span>
+<span class="tc-keyword">class</span> <span class="tc-class">GovindSharma</span>:
+  name  = <span class="tc-string">"Govind Sharma"</span>
+  role  = <span class="tc-string">"Senior Dev &amp; Tech Lead"</span>
+  exp   = <span class="tc-num">9</span>  <span class="tc-comment"># years</span>
+  based = <span class="tc-string">"Noida, India"</span>
+
+  skills = [
+    <span class="tc-string">"Python"</span>, <span class="tc-string">"Django"</span>, <span class="tc-string">"FastAPI"</span>,
+    <span class="tc-string">"React"</span>, <span class="tc-string">"AWS"</span>, <span class="tc-string">"Docker"</span>,
+  ]
+
+  <span class="tc-keyword">def</span> <span class="tc-fn">hire_me</span>(<span class="tc-self">self</span>):
+    <span class="tc-keyword">return</span> <span class="tc-string">"Let's build something great!"</span>
+<span class="terminal-cursor"></span></code>
+            </div>
           </div>
         </div>
 
@@ -108,7 +128,7 @@
     <section class="skills-preview">
       <div class="container">
         <div class="section-header fade-up">
-          <span class="section-tag">What I Work With</span>
+          <span class="section-tag"><span class="section-num">01.</span>What I Work With</span>
           <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
           <div class="section-line"></div>
         </div>
@@ -193,11 +213,98 @@
       </div>
     </section>
 
+    <!-- FEATURED PROJECTS -->
+    <section class="featured-projects-section">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag"><span class="section-num">02.</span>Some Things I've Built</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <div class="section-line"></div>
+        </div>
+
+        <!-- Featured: Benefitone -->
+        <div class="featured-project fade-up">
+          <div class="fp-visual">
+            <div class="fp-visual-inner" style="background: linear-gradient(135deg, #1a1030, #0d1f3c);">
+              🏆
+              <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(108,99,255,0.18),rgba(0,212,255,0.07));"></div>
+            </div>
+          </div>
+          <div class="fp-info">
+            <p class="fp-overline">Featured Project</p>
+            <h3 class="fp-title">Benefitone / Rewardz</h3>
+            <div class="fp-desc-box">
+              SaaS employee engagement and rewards platform serving enterprises across multiple
+              geographies. Led backend architecture — Django microservices, FastAPI, Celery task
+              queues, Angular dashboards. Reduced API latency by 40%.
+            </div>
+            <div class="fp-tags">
+              <span class="tag">Django</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag tag-cyan">Angular</span>
+              <span class="tag tag-orange">Celery</span>
+              <span class="tag tag-green">AWS</span>
+            </div>
+            <div class="fp-actions">
+              <a href="projects/benefitone.html" class="fp-icon-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
+                  <polyline points="15,3 21,3 21,9"/>
+                  <line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+                View Details
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Featured: Marrow / DailyRounds -->
+        <div class="featured-project fp-reverse fade-up">
+          <div class="fp-visual">
+            <div class="fp-visual-inner" style="background: linear-gradient(135deg, #0a1a2e, #1a0a2e);">
+              🩺
+              <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(0,212,255,0.12),rgba(108,99,255,0.06));"></div>
+            </div>
+          </div>
+          <div class="fp-info">
+            <p class="fp-overline">Featured Project</p>
+            <h3 class="fp-title">Marrow / DailyRounds</h3>
+            <div class="fp-desc-box">
+              India's most popular NEET PG exam preparation platform — serving hundreds of
+              thousands of medical students. Built REST APIs for content management and React
+              UI for student-facing features. Engineered for high concurrency with MongoDB.
+            </div>
+            <div class="fp-tags">
+              <span class="tag">Python</span>
+              <span class="tag tag-cyan">React</span>
+              <span class="tag tag-orange">MongoDB</span>
+              <span class="tag">REST APIs</span>
+              <span class="tag">Pytest</span>
+            </div>
+            <div class="fp-actions">
+              <a href="projects/marrow.html" class="fp-icon-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
+                  <polyline points="15,3 21,3 21,9"/>
+                  <line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+                View Details
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center fade-up">
+          <a href="projects.html" class="btn btn-outline">View All Projects &rarr;</a>
+        </div>
+      </div>
+    </section>
+
     <!-- EXPERIENCE PREVIEW -->
     <section class="exp-preview">
       <div class="container">
         <div class="section-header fade-up">
-          <span class="section-tag">Career Journey</span>
+          <span class="section-tag"><span class="section-num">03.</span>Career Journey</span>
           <h2 class="section-title">Recent <span class="gradient-text">Experience</span></h2>
           <div class="section-line"></div>
         </div>
@@ -273,5 +380,20 @@
   </footer>
 
   <script src="js/main.js"></script>
+
+  <!-- Social Sidebar Left -->
+  <aside class="social-sidebar" aria-label="Social links">
+    <a href="https://github.com/me-govind" target="_blank" rel="noreferrer" aria-label="GitHub">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+    </a>
+    <a href="https://linkedin.com/in/me-govind" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    </a>
+  </aside>
+
+  <!-- Email Sidebar Right -->
+  <aside class="email-sidebar" aria-label="Email">
+    <a href="mailto:me.govindsharma@gmail.com">me.govindsharma@gmail.com</a>
+  </aside>
 </body>
 </html>

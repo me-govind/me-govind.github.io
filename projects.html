@@ -32,7 +32,7 @@
     <!-- HERO -->
     <div class="projects-hero">
       <div class="container">
-        <span class="section-tag">Portfolio</span>
+        <span class="section-tag"><span class="section-num">01.</span>Portfolio</span>
         <h1 class="section-title" style="margin-bottom:0.5rem;">
           Featured <span class="gradient-text">Projects</span>
         </h1>
@@ -54,233 +54,150 @@
         <button class="filter-btn" data-filter="desktop">Desktop</button>
       </div>
 
-      <!-- PROJECTS GRID -->
-      <div class="projects-grid">
+      <!-- PROJECTS GRID — refined card style -->
+      <div class="other-projects-grid">
 
         <!-- 1. Benefitone / Rewardz -->
-        <a href="projects/benefitone.html" class="project-card fade-up" data-category="backend saas fullstack" style="text-decoration:none;">
-          <div class="project-header" style="background: linear-gradient(135deg, #1a1030, #0d1f3c);">
-            🏆
+        <a href="projects/benefitone.html" class="other-project-card fade-up" data-category="backend saas fullstack" style="text-decoration:none;">
+          <div class="opc-top">
+            <div class="opc-folder-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/>
+              </svg>
+            </div>
           </div>
-          <div class="project-body">
-            <div class="project-category" style="color:var(--purple-light);">SaaS Platform</div>
-            <div class="project-name">Benefitone / Rewardz — Employee Engagement</div>
-            <div class="project-desc">
-              SaaS employee engagement and rewards platform serving enterprises across multiple geographies.
-              Built backend architecture, microservices, Celery task queues, and Angular dashboards.
-              Reduced API latency by 40%.
-            </div>
-            <div class="project-stack">
-              <span class="tag">Django</span>
-              <span class="tag">FastAPI</span>
-              <span class="tag tag-cyan">Angular</span>
-              <span class="tag tag-orange">Celery</span>
-              <span class="tag tag-green">AWS</span>
-            </div>
-            <div class="project-footer">
-              <span class="project-link">View Details →</span>
-              <span class="tag tag-green">May 2021–Nov 2025</span>
-            </div>
+          <div class="opc-title">Benefitone / Rewardz</div>
+          <div class="opc-desc">SaaS employee engagement platform — Django, FastAPI, Celery queues, Angular dashboards. Reduced API latency 40%. Multi-geo enterprise deployment.</div>
+          <div class="opc-tags">
+            <span class="tag">Django</span><span class="tag">FastAPI</span><span class="tag tag-cyan">Angular</span><span class="tag tag-green">AWS</span>
           </div>
         </a>
 
-        <!-- 2. VNDLY -->
-        <a href="projects/vndly.html" class="project-card fade-up" data-category="backend fullstack saas" style="text-decoration:none;">
-          <div class="project-header" style="background: linear-gradient(135deg, #0d1f3c, #1a2a10);">
-            📋
+        <!-- 2. Marrow / DailyRounds -->
+        <a href="projects/marrow.html" class="other-project-card fade-up" data-category="backend fullstack healthcare" style="text-decoration:none;">
+          <div class="opc-top">
+            <div class="opc-folder-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/>
+              </svg>
+            </div>
           </div>
-          <div class="project-body">
-            <div class="project-category" style="color:var(--cyan);">HR Tech / SaaS</div>
-            <div class="project-name">VNDLY — Vendor Management Platform</div>
-            <div class="project-desc">
-              Vendor management SaaS platform with job posting, interview scheduling, and contractor
-              workflows. Built end-to-end with Django backend, React frontend, and Gunicorn deployment.
-            </div>
-            <div class="project-stack">
-              <span class="tag">Django</span>
-              <span class="tag tag-cyan">React</span>
-              <span class="tag">Jinja</span>
-              <span class="tag tag-green">Gunicorn</span>
-              <span class="tag tag-orange">PostgreSQL</span>
-            </div>
-            <div class="project-footer">
-              <span class="project-link">View Details →</span>
-              <span class="tag">Reckonsys</span>
-            </div>
+          <div class="opc-title">Marrow / DailyRounds</div>
+          <div class="opc-desc">India's #1 NEET PG exam prep platform. Built REST APIs for content management and React UI serving hundreds of thousands of medical students.</div>
+          <div class="opc-tags">
+            <span class="tag">Python</span><span class="tag tag-cyan">React</span><span class="tag tag-orange">MongoDB</span>
           </div>
         </a>
 
-        <!-- 3. QuickMetrix -->
-        <a href="projects/quickmetrix.html" class="project-card fade-up" data-category="backend fullstack" style="text-decoration:none;">
-          <div class="project-header" style="background: linear-gradient(135deg, #1f0d2a, #2a1f0d);">
-            📊
+        <!-- 3. VNDLY -->
+        <a href="projects/vndly.html" class="other-project-card fade-up" data-category="backend fullstack saas" style="text-decoration:none;">
+          <div class="opc-top">
+            <div class="opc-folder-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/>
+              </svg>
+            </div>
           </div>
-          <div class="project-body">
-            <div class="project-category" style="color:var(--orange);">Analytics Tool</div>
-            <div class="project-name">QuickMetrix — Social Media Monitor</div>
-            <div class="project-desc">
-              Social media monitoring tool that scrapes and analyzes posts across platforms.
-              Includes an auto-response engine, sentiment analysis, and reporting dashboards.
-            </div>
-            <div class="project-stack">
-              <span class="tag">Python</span>
-              <span class="tag">Tornado</span>
-              <span class="tag tag-orange">MongoDB</span>
-              <span class="tag">Web Scraping</span>
-            </div>
-            <div class="project-footer">
-              <span class="project-link">View Details →</span>
-              <span class="tag">Freelance</span>
-            </div>
+          <div class="opc-title">VNDLY — Vendor Management</div>
+          <div class="opc-desc">HR Tech SaaS for vendor & contractor workflows — job posting, interview scheduling, and approvals. Full-stack Django + React.</div>
+          <div class="opc-tags">
+            <span class="tag">Django</span><span class="tag tag-cyan">React</span><span class="tag tag-orange">PostgreSQL</span>
           </div>
         </a>
 
-        <!-- 4. GST Invoice -->
-        <a href="projects/gst-invoice.html" class="project-card fade-up" data-category="desktop fullstack" style="text-decoration:none;">
-          <div class="project-header" style="background: linear-gradient(135deg, #0d2a1a, #1a0d2a);">
-            🧾
+        <!-- 4. QuickMetrix -->
+        <a href="projects/quickmetrix.html" class="other-project-card fade-up" data-category="backend fullstack" style="text-decoration:none;">
+          <div class="opc-top">
+            <div class="opc-folder-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/>
+              </svg>
+            </div>
           </div>
-          <div class="project-body">
-            <div class="project-category" style="color:var(--green);">Desktop App</div>
-            <div class="project-name">GST Invoice — ERP Desktop App</div>
-            <div class="project-desc">
-              ERP desktop application for construction industry invoicing with GST compliance.
-              Handles billing, inventory, and financial reporting with a React/Next.js UI.
-            </div>
-            <div class="project-stack">
-              <span class="tag">C#</span>
-              <span class="tag">.NET</span>
-              <span class="tag tag-cyan">React</span>
-              <span class="tag tag-cyan">Next.js</span>
-              <span class="tag tag-orange">MySQL</span>
-            </div>
-            <div class="project-footer">
-              <span class="project-link">View Details →</span>
-              <span class="tag tag-green">Desktop ERP</span>
-            </div>
+          <div class="opc-title">QuickMetrix — Social Monitor</div>
+          <div class="opc-desc">Social media scraping and analysis tool with auto-response engine, sentiment analysis, and real-time reporting dashboards.</div>
+          <div class="opc-tags">
+            <span class="tag">Python</span><span class="tag">Tornado</span><span class="tag tag-orange">MongoDB</span>
           </div>
         </a>
 
-        <!-- 5. GoldenSherpa -->
-        <a href="projects/goldensherpa.html" class="project-card fade-up" data-category="backend fullstack healthcare" style="text-decoration:none;">
-          <div class="project-header" style="background: linear-gradient(135deg, #1f1a0d, #0d1f2a);">
-            🏥
+        <!-- 5. GST Invoice -->
+        <a href="projects/gst-invoice.html" class="other-project-card fade-up" data-category="desktop fullstack" style="text-decoration:none;">
+          <div class="opc-top">
+            <div class="opc-folder-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/>
+              </svg>
+            </div>
           </div>
-          <div class="project-body">
-            <div class="project-category" style="color:var(--cyan);">Healthcare Tech</div>
-            <div class="project-name">GoldenSherpa — Healthcare Placement</div>
-            <div class="project-desc">
-              Event scheduling and video call platform for residential healthcare facility placement.
-              Helps families find and connect with care facilities through automated workflows.
-            </div>
-            <div class="project-stack">
-              <span class="tag">Django</span>
-              <span class="tag tag-cyan">Angular</span>
-              <span class="tag tag-green">AWS</span>
-              <span class="tag">Video Calls</span>
-            </div>
-            <div class="project-footer">
-              <span class="project-link">View Details →</span>
-              <span class="tag">Reckonsys</span>
-            </div>
+          <div class="opc-title">GST Invoice — ERP Desktop</div>
+          <div class="opc-desc">Construction industry ERP desktop app with GST-compliant invoicing, inventory tracking, and financial reporting. C# + React/Next.js.</div>
+          <div class="opc-tags">
+            <span class="tag">C#</span><span class="tag">.NET</span><span class="tag tag-cyan">Next.js</span><span class="tag tag-orange">MySQL</span>
           </div>
         </a>
 
-        <!-- 6. Marrow / DailyRounds -->
-        <a href="projects/marrow.html" class="project-card fade-up" data-category="backend fullstack healthcare" style="text-decoration:none;">
-          <div class="project-header" style="background: linear-gradient(135deg, #0a1a2e, #1a0a2e);">
-            🩺
+        <!-- 6. GoldenSherpa -->
+        <a href="projects/goldensherpa.html" class="other-project-card fade-up" data-category="backend fullstack healthcare" style="text-decoration:none;">
+          <div class="opc-top">
+            <div class="opc-folder-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/>
+              </svg>
+            </div>
           </div>
-          <div class="project-body">
-            <div class="project-category" style="color:var(--purple-light);">EdTech / Healthcare</div>
-            <div class="project-name">Marrow / DailyRounds — NEET PG Platform</div>
-            <div class="project-desc">
-              India's most popular NEET PG exam preparation platform. Built REST APIs for educational
-              content management and React UI for student-facing features. Handled a large concurrent
-              user base.
-            </div>
-            <div class="project-stack">
-              <span class="tag">Python</span>
-              <span class="tag tag-cyan">React</span>
-              <span class="tag tag-orange">MongoDB</span>
-              <span class="tag">Pytest</span>
-            </div>
-            <div class="project-footer">
-              <span class="project-link">View Details →</span>
-              <span class="tag">Neuroglia Health</span>
-            </div>
+          <div class="opc-title">GoldenSherpa — Healthcare</div>
+          <div class="opc-desc">Event scheduling and video call platform for residential healthcare facility placement — automating family-to-care-facility matching workflows.</div>
+          <div class="opc-tags">
+            <span class="tag">Django</span><span class="tag tag-cyan">Angular</span><span class="tag tag-green">AWS</span>
           </div>
         </a>
 
         <!-- 7. VignaWorld -->
-        <div class="project-card fade-up" data-category="backend fullstack healthcare">
-          <div class="project-header" style="background: linear-gradient(135deg, #0d2a20, #2a1a0d);">
-            👩‍⚕️
+        <div class="other-project-card fade-up" data-category="backend fullstack healthcare">
+          <div class="opc-top">
+            <div class="opc-folder-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/>
+              </svg>
+            </div>
           </div>
-          <div class="project-body">
-            <div class="project-category" style="color:var(--green);">Healthcare Staffing</div>
-            <div class="project-name">VignaWorld — Healthcare Staffing Platform</div>
-            <div class="project-desc">
-              Hiring workflows and admin dashboards for healthcare staff management.
-              Covers job posting, candidate management, and multi-role admin panels.
-            </div>
-            <div class="project-stack">
-              <span class="tag">Django</span>
-              <span class="tag tag-cyan">React</span>
-              <span class="tag tag-green">AWS</span>
-            </div>
-            <div class="project-footer">
-              <span style="font-size:0.82rem; color:var(--text-muted);">Reckonsys Tech Labs</span>
-              <span class="tag">Staffing</span>
-            </div>
+          <div class="opc-title">VignaWorld — Staffing Platform</div>
+          <div class="opc-desc">Hiring workflows and multi-role admin dashboards for healthcare staff management — job posting and candidate pipeline.</div>
+          <div class="opc-tags">
+            <span class="tag">Django</span><span class="tag tag-cyan">React</span><span class="tag tag-green">AWS</span>
           </div>
         </div>
 
         <!-- 8. WyngCommerce -->
-        <div class="project-card fade-up" data-category="backend saas">
-          <div class="project-header" style="background: linear-gradient(135deg, #1a0d30, #0d301a);">
-            🛒
+        <div class="other-project-card fade-up" data-category="backend saas">
+          <div class="opc-top">
+            <div class="opc-folder-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/>
+              </svg>
+            </div>
           </div>
-          <div class="project-body">
-            <div class="project-category" style="color:var(--purple-light);">E-Commerce AI</div>
-            <div class="project-name">WyngCommerce — AI Retail Planning</div>
-            <div class="project-desc">
-              Implemented the First Allocation Quantity (FAQ) module for AI-driven retail inventory
-              planning. Integrated with existing Django backend and React frontend.
-            </div>
-            <div class="project-stack">
-              <span class="tag">Django</span>
-              <span class="tag tag-cyan">React</span>
-              <span class="tag">AI Planning</span>
-            </div>
-            <div class="project-footer">
-              <span style="font-size:0.82rem; color:var(--text-muted);">Reckonsys Tech Labs</span>
-              <span class="tag">Retail AI</span>
-            </div>
+          <div class="opc-title">WyngCommerce — AI Retail</div>
+          <div class="opc-desc">First Allocation Quantity (FAQ) module for AI-driven retail inventory planning, integrated into existing Django + React architecture.</div>
+          <div class="opc-tags">
+            <span class="tag">Django</span><span class="tag tag-cyan">React</span><span class="tag">AI Planning</span>
           </div>
         </div>
 
         <!-- 9. SaveOnJobs -->
-        <div class="project-card fade-up" data-category="backend fullstack">
-          <div class="project-header" style="background: linear-gradient(135deg, #0d1a30, #301a0d);">
-            💼
+        <div class="other-project-card fade-up" data-category="backend fullstack">
+          <div class="opc-top">
+            <div class="opc-folder-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/>
+              </svg>
+            </div>
           </div>
-          <div class="project-body">
-            <div class="project-category" style="color:var(--cyan);">Job Portal</div>
-            <div class="project-name">SaveOnJobs — Bidding Job Portal</div>
-            <div class="project-desc">
-              Bidding-based job portal where employers post budgets and developers bid for projects.
-              Built with Flask backend and AngularJS SPA frontend.
-            </div>
-            <div class="project-stack">
-              <span class="tag">Flask</span>
-              <span class="tag tag-cyan">AngularJS</span>
-              <span class="tag tag-orange">MongoDB</span>
-            </div>
-            <div class="project-footer">
-              <span style="font-size:0.82rem; color:var(--text-muted);">Freelance</span>
-              <span class="tag">Job Portal</span>
-            </div>
+          <div class="opc-title">SaveOnJobs — Job Portal</div>
+          <div class="opc-desc">Bidding-based job marketplace where employers post budgets and developers bid for projects. Flask backend + AngularJS SPA.</div>
+          <div class="opc-tags">
+            <span class="tag">Flask</span><span class="tag tag-cyan">AngularJS</span><span class="tag tag-orange">MongoDB</span>
           </div>
         </div>
 
@@ -304,5 +221,20 @@
   </footer>
 
   <script src="js/main.js"></script>
+
+  <!-- Social Sidebar Left -->
+  <aside class="social-sidebar" aria-label="Social links">
+    <a href="https://github.com/me-govind" target="_blank" rel="noreferrer" aria-label="GitHub">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+    </a>
+    <a href="https://linkedin.com/in/me-govind" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    </a>
+  </aside>
+
+  <!-- Email Sidebar Right -->
+  <aside class="email-sidebar" aria-label="Email">
+    <a href="mailto:me.govindsharma@gmail.com">me.govindsharma@gmail.com</a>
+  </aside>
 </body>
 </html>

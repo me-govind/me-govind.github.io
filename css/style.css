@@ -149,6 +149,47 @@ body::before {
   background: var(--bg-card) !important;
 }
 
+.nav-resume {
+  padding: 0.45rem 1rem;
+  border: 1px solid var(--purple);
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--purple-light) !important;
+  font-family: var(--font-mono);
+  transition: var(--transition);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.nav-resume:hover {
+  background: rgba(108, 99, 255, 0.1) !important;
+  transform: translateY(-1px);
+}
+
+.nav-resume svg {
+  width: 14px;
+  height: 14px;
+}
+
+/* Resume download button */
+.btn-resume {
+  background: transparent;
+  border: 1px solid var(--purple);
+  color: var(--purple-light);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  gap: 0.45rem;
+}
+
+.btn-resume:hover {
+  background: rgba(108, 99, 255, 0.1);
+  border-color: var(--purple-light);
+  transform: translateY(-2px);
+  color: var(--purple-light);
+}
+
 .hamburger {
   display: none;
   flex-direction: column;
